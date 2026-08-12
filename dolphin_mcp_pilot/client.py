@@ -24,8 +24,8 @@ import urllib.parse
 import urllib.request
 import uuid
 
-from .config import get_ds_url
 from .auth import login
+from .config import get_ds_url
 
 
 def ds_api_request(
